@@ -17,13 +17,13 @@ const validateInput = (input) =>
             const reversedInput= cleanedInput.split('').reverse().join('');
         if (cleanedInput === reversedInput)
             {
-               return output.innerText = `${input} is a palindrome.`;
+               return output.innerHTML = `<b>${input}</b> is a palindrome.`;
             }
         
         else
         {
             console.log('true');
-            return output.innerText = `${input} is not a palindrome.`;
+            return output.innerHTML = `<b>${input}</b> is not a palindrome.`;
             
         }
                     
