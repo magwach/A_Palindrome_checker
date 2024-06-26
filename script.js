@@ -30,7 +30,7 @@ const validateInput = (input) =>
         }
         else
         {
-            alert("Please input a value");
+            alert("Please input a value!");
             return;
         }
         
